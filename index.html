@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Coming Soon</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="assets/man.png" rel="icon" type="x/png"/>
 </head>
 <body>
   <header>
@@ -27,7 +28,7 @@
         <div class="time"><div id="minute"></div><span>Hours</span></div>
         <div class="time"><div id="second"></div><span>Seconds</span></div>
       </div>
-      <a href="#">Notify Me!</a>
+      <a href="#" onclick="toggle();">Notify Me!</a>
     </div>
     <div class="imgBx">
       <img src="/assets/man.png">
@@ -38,6 +39,17 @@
       <li><a href="#"><img src="/assets/instagram.png"></a></li>
     </ul>
   </section>
+  <div class="newsletter">
+    <h2>Stay Tuned</h2>
+    <p>Get notified at launch</p>
+    <div class="inputBox">
+      <form>
+        <input type="email" name="" required="" placeholder="Enter Email Address">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <img src="assets/close.png" class="close" onclick="toggle();">
+  </div>
   <script src="script.js" type="text/javascript"></script>
 </body>
 </html>

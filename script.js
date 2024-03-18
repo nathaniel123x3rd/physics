@@ -22,3 +22,8 @@ function newYear(){
 setInterval(function(){
   newYear();
 },1000)
+
+function toggle(){
+  var newsletter = document.querySelector('.newsletter');
+  newsletter.classList.toggle('active');
+}
